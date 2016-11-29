@@ -8,6 +8,6 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <TextBox Name="Hello" Text=" Hello"/>
-        <Button Name="Exit" Width="100" Height="50"/>
+        <Button Name="Exit" Width="100" Height="50" Click="Exit_Click"/>
     </Grid>
 </Window>
