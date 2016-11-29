@@ -29,5 +29,10 @@ namespace WpfApplication1
         {
            Close();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
