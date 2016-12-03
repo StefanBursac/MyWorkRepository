@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="219*"/>
+            <ColumnDefinition Width="298*"/>
+        </Grid.ColumnDefinitions>
         <TextBox x:Name="Name" HorizontalAlignment="Left" Height="18" Margin="75,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Your Name" VerticalAlignment="Top" Width="60" Height="18"/>
         <RadioButton x:Name="Male" Content="Male" HorizontalAlignment="Left" Margin="81,33,0,0" VerticalAlignment="Top"/>
